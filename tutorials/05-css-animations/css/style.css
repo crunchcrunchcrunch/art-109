@@ -1,0 +1,109 @@
+body {
+  animation: change-color 8s infinite;
+}
+
+@keyframes change-color {
+  0% {
+    background-color: rgb(255, 228, 237);
+  }
+  50% {
+    background-color: rgb(227, 248, 227);
+  }
+  100% {
+    background-color: rgb(255, 255, 219);
+  }
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 80px auto;
+  animation: skew 3s infinite alternate;
+}
+
+@keyframes skew {
+  0% {
+    transform: skew(0deg, 0deg);
+  }
+  100% {
+    transform: skew(30deg, 20deg);
+  }
+}
+
+.square {
+  background-color: rgb(255, 180, 248);
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 50px auto;
+  transition: all 1s;
+}
+
+.square:hover {
+  background-color: rgb(119, 168, 252);
+  transform: rotate(40deg);
+}
+
+.button-div {
+  text-align: center;
+}
+.button {
+  background-color: rgb(234, 212, 255);
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: rgb(255, 245, 178);
+  color: rgb(255, 89, 28);
+  transform: scale(1.5);
+}
+
+.boom {
+  background-color: rgb(255, 228, 192);
+  animation: stretch 5s infinite alternate;
+  width: 80vw;
+}
+
+@keyframes stretch {
+  0% {
+    width: 100px;
+  }
+  100% {
+    width: 100vw;
+  }
+}
+.circle {
+  background-color: rgb(255, 248, 206);
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin: 80px auto;
+  animation: stretch 5s infinite alternate;
+  width: 80vw;
+}
+@keyframes stretch {
+  0% {
+    width: 50px;
+  }
+  100% {
+    width: 80vw;
+  }
+}
+
+.woof {
+  background-color: rgb(172, 255, 182);
+  padding: 50px;
+  border-radius: 70px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+}
+.woof:hover {
+  background-color: rgb(196, 255, 203);
+  color: rgb(43, 119, 52);
+  transform: scale(4);
+}
