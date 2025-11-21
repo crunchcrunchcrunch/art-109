@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1.8;
+}
