@@ -1,7 +1,6 @@
 body {
   background: #f2f3ff;
   height: 100%;
-  margin: -50;
   height: 60%;
 }
 
@@ -9,36 +8,30 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.6;
 }
-.lined {
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   border-bottom: 2px solid #5f59ff;
-  padding-bottom: 40px;
-}
-h1 {
-  margin-top: 5%;
-  height: 100%;
-  margin: 800;
-  line-height: 1.4;
-  left: 40;
-  margin-left: 30;
-  padding-left: 40%;
-}
-h2 {
-  margin: 300;
-  line-height: 0.5;
-  padding-left: 30%;
-  margin-bottom: -17%;
+  padding-inline: 12px;
+  padding-block-start: 12px;
+  padding-block-end: 8px;
 }
 
-.content-wrapper {
-  margin: 0 auto;
-  padding: 30px;
-  max-width: 100px;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+h1,
+h2 {
+  margin: 0;
+}
+
 .box {
-  border: none;
-  padding: 300px;
   text-align: left;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  width: 40%;
 }
